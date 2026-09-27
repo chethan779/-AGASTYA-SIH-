@@ -1,0 +1,11 @@
+# Dataset paths (relative to your project root)
+train: dataset/images/train
+val: dataset/images/val
+
+# Number of classes
+nc: 2
+
+# Class names (ordered by index 0 and 1)
+names:
+  0: blue_box
+  1: red_bowl
