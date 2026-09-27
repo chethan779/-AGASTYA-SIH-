@@ -31,6 +31,7 @@ This repository contains the current demonstration implementation, including rea
 
 ## 📁 Project Structure
 
+```text
 AGASTYA-SIH/
 │
 ├── final_sih_demo_project/
@@ -45,8 +46,7 @@ AGASTYA-SIH/
 ├── requirements-nvidia.txt
 ├── README.md
 └── .gitignore
-
-
+```
 ---
 
 ## 💻 Requirements
