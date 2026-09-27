@@ -231,6 +231,13 @@ The additional packages required internally by these libraries are installed aut
 
 ## 👥 Team
 
+- Diya N Kamath
+- Chethan S
+- Dushyanth R
+- Jivesh RM
+- Apoorva S Mandi
+- Dhruthi K Vijay
+
 ---
 
 ## 📜 License
