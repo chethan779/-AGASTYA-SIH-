@@ -109,7 +109,11 @@ def check_placement_sequence(actual_ball, actual_box):
 # CONFIGURATION
 # ============================================================
 
-MODEL_PATH = "/home/chethan/CV_Workspace/models/bigbang.pt"
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+MODEL_PATH = PROJECT_ROOT / "models" / "bigbang.pt"
+
 CAMERA_ID = 0
 CONFIDENCE = 0.30
 IMAGE_SIZE = 416
@@ -176,7 +180,7 @@ print("==========================================")
 print()
 print("Loading YOLO model...")
 
-model = YOLO(MODEL_PATH)
+model = YOLO(str(MODEL_PATH))
 
 print("Model loaded successfully.")
 print("Classes:", model.names)
